@@ -1,0 +1,12 @@
+[
+    "Armenia-cropped.las",
+    
+    {
+	"type":"filters.transformation",
+        "matrix":".9481  .3180  0  0  -.3180  .9481  0  0  0  0  1  0  0  0  0  1"
+    },    
+    {
+        "type":"writers.las",
+        "filename":"Armenia-cropped-rotated.las"
+    }
+]

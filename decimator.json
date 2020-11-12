@@ -1,0 +1,14 @@
+[
+    {
+        "type": "readers.las",
+        "filename": "Armenia-cropped-croppedagain.las"
+    },
+    {
+        "type":"filters.decimation",
+        "step": 2
+    },
+    {
+        "type":"writers.las",
+        "filename":"Armenia-cropped-decimate2.las"
+    }
+]

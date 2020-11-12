@@ -1,0 +1,14 @@
+[
+    "Armenia_MonasteryofGeghard.las",
+    
+    {
+        "type": "filters.crop",
+        "point": "POINT(2.5 8.5 18.0)",
+	"distance":30
+    },
+    {
+        "type":"writers.las",
+        "filename":"Armenia-cropped.las"
+    }
+
+]

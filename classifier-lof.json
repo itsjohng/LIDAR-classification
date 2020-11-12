@@ -1,0 +1,15 @@
+[
+    {
+        "type": "readers.bpf",
+        "filename": "Armenia-Eig.las"
+    },
+    {
+        "type":"filters.lof",
+        "minpts":500
+    },
+    
+    {
+        "type":"writers.bpf",
+        "filename":"Armenia-lof.las"
+    }
+]

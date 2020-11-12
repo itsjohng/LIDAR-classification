@@ -1,0 +1,17 @@
+[
+    {
+        "type": "readers.bpf",
+        "filename": "Armenia-Eig.las"
+    },
+    {
+        "type":"filters.covariancefeatures",
+        "knn":500,
+        "threads": 4,
+        "feature_set": "Dimensionality"
+    },
+    {
+        "type":"writers.bpf",
+        "filename":"Armenia-cropped2-classified.las",
+        "output_dims":"X,Y,Z,Linearity,Planarity,Scattering,Verticality"
+    }
+]

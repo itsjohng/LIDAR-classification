@@ -1,0 +1,12 @@
+[
+    "Armenia-cropped-decimate2.las",
+    {
+        "type":"filters.eigenvalues",
+        "knn":500
+    },
+    {
+        "type":"writers.bpf",
+        "filename":"Armenia-Eig.las",
+        "output_dims":"X,Y,Z,Eigenvalue0,Eigenvalue1,Eigenvalue2"
+    }
+]

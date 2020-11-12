@@ -1,0 +1,15 @@
+[
+    {
+        "type": "readers.bpf",
+        "filename": "Armenia-Eig.las"
+    },    
+    {
+        "type": "filters.range",
+        "limits": "Z[-1.25:13]"
+    },
+    {
+        "type":"writers.las",
+        "filename":"Armenia-eig-z125.las"
+    }
+
+]
